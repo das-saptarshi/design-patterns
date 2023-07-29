@@ -8,7 +8,7 @@ import com.saptarshi.das.designpatterns.observerpattern.observers.StockObserver;
 
 public class MobileStockObservable implements StockObservable {
 	private int stock; 
-	private List<StockObserver> observers;
+	private final List<StockObserver> observers;
 	
 	public MobileStockObservable() {
 		stock = 0;
@@ -39,10 +39,8 @@ public class MobileStockObservable implements StockObservable {
 
 	@Override
 	public void addStock(int stock) {
-		final int oldStock = this.stock;
 		this.stock += stock;
-		
-		if (oldStock == 0) {
+		if (this.stock > 0 && this.stock == stock) {
 			notifyObservers();
 		}
 	}
