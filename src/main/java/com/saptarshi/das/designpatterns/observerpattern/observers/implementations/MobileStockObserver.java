@@ -4,9 +4,21 @@ import com.saptarshi.das.designpatterns.observerpattern.observables.StockObserva
 import com.saptarshi.das.designpatterns.observerpattern.observers.StockObserver;
 
 public class MobileStockObserver implements StockObserver {
+	private final String name;
+	private final StockObservable stockObservable;
+
+	public MobileStockObserver(final StockObservable stockObservable, final String name) {
+		this.name = name;
+		this.stockObservable = stockObservable;
+	}
+	@Override
+	public void update() {
+		System.out.println("Stock Available: " + stockObservable.getStock() +". Checking product. Observer: " + name);
+	}
 
 	@Override
-	public void update(final StockObservable observable) {
-		System.out.println("Stock available. Buying product.");
+	public void unregister() {
+		System.out.println(name +  " unregistered.");
+		stockObservable.remove(this);
 	}
 }

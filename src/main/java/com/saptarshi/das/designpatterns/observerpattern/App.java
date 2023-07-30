@@ -7,16 +7,18 @@ import com.saptarshi.das.designpatterns.observerpattern.observers.implementation
 
 public class App {
 	public static void main(String[] args) {
-		final StockObserver observer1 = new MobileStockObserver(); 
-		final StockObserver observer2 = new MobileStockObserver(); 
-		final StockObserver observer3 = new MobileStockObserver(); 
-		
 		final StockObservable subject = new MobileStockObservable();
-		
+
+		final StockObserver observer1 = new MobileStockObserver(subject, "Customer 1");
+		final StockObserver observer2 = new MobileStockObserver(subject, "Customer 2");
+		final StockObserver observer3 = new MobileStockObserver(subject, "Customer 3");
+
 		subject.add(observer1);
 		subject.add(observer2);
 		subject.add(observer3);
-		
+		subject.addStock(6);
+		observer1.unregister();
+		subject.resetStock();
 		subject.addStock(6);
 	}
 }

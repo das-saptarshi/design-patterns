@@ -28,7 +28,7 @@ public class MobileStockObservable implements StockObservable {
 	@Override
 	public void notifyObservers() {
 		for (StockObserver observer : observers) {
-			observer.update(this);
+			observer.update();
 		}
 	}
 
@@ -43,5 +43,10 @@ public class MobileStockObservable implements StockObservable {
 		if (this.stock > 0 && this.stock == stock) {
 			notifyObservers();
 		}
+	}
+
+	@Override
+	public void resetStock() {
+		this.stock = 0;
 	}
 }

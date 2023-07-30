@@ -8,4 +8,5 @@ public interface StockObservable {
 	void notifyObservers();
 	int getStock();
 	void addStock(int stock);
+	void resetStock();
 }
