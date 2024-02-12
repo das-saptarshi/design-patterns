@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.behavioural.mememtopattern.entity;
+package com.saptarshi.das.designpatterns.behavioral.mememtopattern.entity;
 
 import org.apache.commons.collections4.CollectionUtils;
 

@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.behavioural.mememtopattern.entity;
+package com.saptarshi.das.designpatterns.behavioral.mememtopattern.entity;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

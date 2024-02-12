@@ -1,7 +1,7 @@
-package com.saptarshi.das.designpatterns.behavioural.mememtopattern;
+package com.saptarshi.das.designpatterns.behavioral.mememtopattern;
 
-import com.saptarshi.das.designpatterns.behavioural.mememtopattern.entity.Caretaker;
-import com.saptarshi.das.designpatterns.behavioural.mememtopattern.entity.Originator;
+import com.saptarshi.das.designpatterns.behavioral.mememtopattern.entity.Originator;
+import com.saptarshi.das.designpatterns.behavioral.mememtopattern.entity.Caretaker;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
