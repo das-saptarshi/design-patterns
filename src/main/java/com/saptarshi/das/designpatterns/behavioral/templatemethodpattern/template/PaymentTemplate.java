@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.templatemethodpattern.template;
+package com.saptarshi.das.designpatterns.behavioral.templatemethodpattern.template;
 
 public abstract class PaymentTemplate {
     protected abstract void validatePayment();
