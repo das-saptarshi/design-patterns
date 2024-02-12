@@ -8,7 +8,7 @@
   <artifactId>designpatterns</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>low-level-design-patterns</name>
+  <name>Low Level Design Patterns</name>
   <description>A collection of all Low Level Design Patterns.</description>
 
   <properties>
