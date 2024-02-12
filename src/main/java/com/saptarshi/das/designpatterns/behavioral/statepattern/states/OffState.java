@@ -1,6 +1,6 @@
-package com.saptarshi.das.designpatterns.statepattern.states;
+package com.saptarshi.das.designpatterns.behavioral.statepattern.states;
 
-import com.saptarshi.das.designpatterns.statepattern.models.Context;
+import com.saptarshi.das.designpatterns.behavioral.statepattern.models.Context;
 
 public class OffState implements State {
     @Override

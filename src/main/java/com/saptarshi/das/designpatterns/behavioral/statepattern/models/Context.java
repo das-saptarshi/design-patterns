@@ -1,7 +1,7 @@
-package com.saptarshi.das.designpatterns.statepattern.models;
+package com.saptarshi.das.designpatterns.behavioral.statepattern.models;
 
-import com.saptarshi.das.designpatterns.statepattern.states.OffState;
-import com.saptarshi.das.designpatterns.statepattern.states.State;
+import com.saptarshi.das.designpatterns.behavioral.statepattern.states.OffState;
+import com.saptarshi.das.designpatterns.behavioral.statepattern.states.State;
 import lombok.Getter;
 import lombok.Setter;
 

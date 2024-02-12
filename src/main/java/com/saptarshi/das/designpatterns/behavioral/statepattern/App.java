@@ -1,6 +1,6 @@
-package com.saptarshi.das.designpatterns.statepattern;
+package com.saptarshi.das.designpatterns.behavioral.statepattern;
 
-import com.saptarshi.das.designpatterns.statepattern.models.Television;
+import com.saptarshi.das.designpatterns.behavioral.statepattern.models.Television;
 
 public class App {
     public static void main(String[] args) {

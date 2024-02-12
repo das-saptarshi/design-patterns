@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.statepattern.models;
+package com.saptarshi.das.designpatterns.behavioral.statepattern.models;
 
 public class Television {
     private final Context context;
