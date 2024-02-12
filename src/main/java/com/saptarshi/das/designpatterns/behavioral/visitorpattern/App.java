@@ -18,8 +18,9 @@ public class App {
                 new Rectangle()
         );
 
-        final Visitor exportVisitor = new ExportVisitor();
+        shapes.forEach(Shape::draw);
 
+        final Visitor exportVisitor = new ExportVisitor();
         shapes.forEach(shape -> shape.accept(exportVisitor));
     }
 }
