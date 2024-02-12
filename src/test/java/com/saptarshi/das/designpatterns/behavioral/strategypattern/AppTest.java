@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.strategypattern;
+package com.saptarshi.das.designpatterns.behavioral.strategypattern;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

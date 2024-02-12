@@ -1,6 +1,6 @@
-package com.saptarshi.das.designpatterns.strategypattern.pattern.models;
+package com.saptarshi.das.designpatterns.behavioral.strategypattern.pattern.models;
 
-import com.saptarshi.das.designpatterns.strategypattern.pattern.strategy.DriveStrategy;
+import com.saptarshi.das.designpatterns.behavioral.strategypattern.pattern.strategy.DriveStrategy;
 
 public class Vehicle {
 	private DriveStrategy driveStrategy;

@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.strategypattern.antipattern;
+package com.saptarshi.das.designpatterns.behavioral.strategypattern.antipattern;
 
 public class SportsCar extends Vehicle {
 	@Override

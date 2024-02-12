@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.strategypattern.pattern.strategy;
+package com.saptarshi.das.designpatterns.behavioral.strategypattern.pattern.strategy;
 
 public class OffRoadDriveStrategy implements DriveStrategy {
 
