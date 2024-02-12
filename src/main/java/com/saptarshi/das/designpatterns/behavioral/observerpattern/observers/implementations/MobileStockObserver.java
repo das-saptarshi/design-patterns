@@ -1,7 +1,7 @@
-package com.saptarshi.das.designpatterns.observerpattern.observers.implementations;
+package com.saptarshi.das.designpatterns.behavioral.observerpattern.observers.implementations;
 
-import com.saptarshi.das.designpatterns.observerpattern.observables.StockObservable;
-import com.saptarshi.das.designpatterns.observerpattern.observers.StockObserver;
+import com.saptarshi.das.designpatterns.behavioral.observerpattern.observables.StockObservable;
+import com.saptarshi.das.designpatterns.behavioral.observerpattern.observers.StockObserver;
 
 public class MobileStockObserver implements StockObserver {
 	private final String name;

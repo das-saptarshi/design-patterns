@@ -1,6 +1,6 @@
-package com.saptarshi.das.designpatterns.observerpattern.observables;
+package com.saptarshi.das.designpatterns.behavioral.observerpattern.observables;
 
-import com.saptarshi.das.designpatterns.observerpattern.observers.StockObserver;
+import com.saptarshi.das.designpatterns.behavioral.observerpattern.observers.StockObserver;
 
 public interface StockObservable {
 	void add(StockObserver observer);

@@ -1,6 +1,10 @@
-package com.saptarshi.das.designpatterns.chainofresponsibilitypattern;
+package com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern;
 
-import com.saptarshi.das.designpatterns.chainofresponsibilitypattern.handlers.*;
+import com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers.AtmHandler;
+import com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers.BankHandler;
+import com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers.NoOpsHandler;
+import com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers.PaymentHandler;
+import com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers.PaypalHandler;
 
 public class App {
     public static void main(String[] args) {

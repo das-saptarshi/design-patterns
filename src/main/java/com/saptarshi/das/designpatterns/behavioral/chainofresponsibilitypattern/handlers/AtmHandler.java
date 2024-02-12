@@ -1,4 +1,4 @@
-package com.saptarshi.das.designpatterns.chainofresponsibilitypattern.handlers;
+package com.saptarshi.das.designpatterns.behavioral.chainofresponsibilitypattern.handlers;
 
 public class AtmHandler extends PaymentHandler {
     @Override

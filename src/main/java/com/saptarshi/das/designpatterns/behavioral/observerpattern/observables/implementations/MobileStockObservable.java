@@ -1,10 +1,10 @@
-package com.saptarshi.das.designpatterns.observerpattern.observables.implementations;
+package com.saptarshi.das.designpatterns.behavioral.observerpattern.observables.implementations;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.saptarshi.das.designpatterns.observerpattern.observables.StockObservable;
-import com.saptarshi.das.designpatterns.observerpattern.observers.StockObserver;
+import com.saptarshi.das.designpatterns.behavioral.observerpattern.observables.StockObservable;
+import com.saptarshi.das.designpatterns.behavioral.observerpattern.observers.StockObserver;
 
 public class MobileStockObservable implements StockObservable {
 	private int stock; 
